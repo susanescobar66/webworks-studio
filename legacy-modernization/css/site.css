@@ -1,0 +1,47 @@
+/* Riverbend Books legacy style sheet
+   Last updated: 06/14/2001
+*/
+body {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4b4b47;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #23495F;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+a { color: #23495F; }
+a:hover { color: #A23B2A; }
+.navcell { background-color: #23495F; height: 34px; }
+.navcell a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navcell a:hover { color: #FFE9A8; }
+.photo { border: 1px solid #9b8a73; }
+.footertext { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #666666; }
+.footertext a { font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+td { font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+/* old notes
+.red { color: #A23B2A; }
+*/
+a:link { color: #23495F; }
+a:visited { color: #6D5548; }
+a:active { color: #A23B2A; }
