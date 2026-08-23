@@ -15,9 +15,7 @@ Studio Onboarding & GitHub Workspace Setup
 GITHUB PAGES URL
 
 ## Week 1 Requirements
-- Edit project files in Visual Studio Code.
-- Replace `YOUR NAME` in `index.html` and this README.
-- Change the Studio Status in `index.html` to `Ready for Client Work`.
+- This week I updated the contents for the index page.for Client Work`.
 - Test the site locally before and after editing.
 - Commit and push your work to your public GitHub repository.
 - Publish the site with GitHub Pages.
