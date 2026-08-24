@@ -9,4 +9,4 @@ Use this site to demonstrate how a developer can modernize inherited HTML/CSS wh
 Do not distribute the FINISHED version before the Week 2 demo if you want students to make their own decisions.
 
 ## This folder
-`START` represents the start state of the instructor demonstration.
+`MIDPOINT` represents the midpoint state of the instructor demonstration.
