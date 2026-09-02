@@ -1,0 +1,192 @@
+/*
+  Cedar & Stone Home Services — Completed Bootstrap Demo
+
+  Bootstrap handles the layout, responsive grid, navbar, cards, buttons,
+  spacing, display, and alignment. This stylesheet is intentionally limited
+  to Cedar & Stone's client-specific brand treatment.
+*/
+
+:root {
+  --cs-green: #203c35;
+  --cs-cedar: #a86643;
+  --cs-cream: #f5f0e7;
+  --cs-soft-green: #e8efeb;
+  --cs-charcoal: #26312d;
+  --cs-muted: #5d6a64;
+  --cs-warm-gray: #ddd5c9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--cs-charcoal);
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+.navbar-brand {
+  color: var(--cs-green);
+}
+
+.brand-navbar,
+.brand-footer,
+.contact-section {
+  background: var(--cs-green);
+}
+
+.brand-navbar .navbar-brand,
+.brand-footer {
+  color: #fff;
+}
+
+.brand-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.brand-navbar .nav-link:hover,
+.brand-navbar .nav-link:focus {
+  color: #fff;
+}
+
+.hero-section {
+  background: var(--cs-cream);
+}
+
+.process-section {
+  background: var(--cs-soft-green);
+}
+
+.eyebrow {
+  color: var(--cs-cedar);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.eyebrow-light {
+  color: #e7b595;
+}
+
+.text-muted-custom {
+  color: var(--cs-muted);
+}
+
+.hero-image-wrap,
+.about-image-wrap {
+  background: var(--cs-warm-gray);
+  border-radius: 1rem;
+}
+
+.hero-image-wrap {
+  max-width: 25rem;
+}
+
+.service-card {
+  border-color: #ccd7d2;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 1rem rgba(32, 60, 53, 0.05);
+}
+
+.service-image {
+  min-height: 13rem;
+}
+
+.service-image-green {
+  background: var(--cs-soft-green);
+}
+
+.service-image-cream {
+  background: #efe4d8;
+}
+
+.service-icon {
+  max-height: 8rem;
+}
+
+.btn-brand {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--cs-green);
+  --bs-btn-border-color: var(--cs-green);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #172e29;
+  --bs-btn-hover-border-color: #172e29;
+  --bs-btn-focus-shadow-rgb: 32, 60, 53;
+}
+
+.btn-outline-brand {
+  --bs-btn-color: var(--cs-green);
+  --bs-btn-border-color: var(--cs-green);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--cs-green);
+  --bs-btn-hover-border-color: var(--cs-green);
+  --bs-btn-focus-shadow-rgb: 32, 60, 53;
+}
+
+.btn-cedar {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--cs-cedar);
+  --bs-btn-border-color: var(--cs-cedar);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #915839;
+  --bs-btn-hover-border-color: #915839;
+  --bs-btn-focus-shadow-rgb: 168, 102, 67;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.link-brand {
+  color: var(--cs-green);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+.link-brand:hover,
+.link-brand:focus {
+  color: var(--cs-cedar);
+}
+
+.step-number {
+  display: inline-flex;
+  width: 2.75rem;
+  height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--cs-green);
+  color: #fff;
+  font-weight: 700;
+}
+
+.process-list .list-group-item {
+  border-color: rgba(32, 60, 53, 0.16);
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.contact-card a:not(.btn) {
+  color: var(--cs-green);
+}
+
+.py-lg-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.scroll-offset {
+  scroll-margin-top: 5rem;
+}
+
+@media (max-width: 991.98px) {
+  .py-lg-6 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}

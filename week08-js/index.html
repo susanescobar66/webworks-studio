@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cedar Ridge Hike Planner</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrap top">
+        <strong>Cedar Ridge Trail Finder</strong>
+        <nav>
+          <a href="#routes">Routes</a><a href="#help">Difficulty</a
+          ><a href="#plan">Plan</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <p class="eyebrow">Cedar Ridge</p>
+          <h1>Pick a morning trail.</h1>
+          <p>Compare practical details before heading out.</p>
+        </div>
+      </section>
+      <section class="wrap section" id="routes">
+        <h2>Trail choices</h2>
+        <div class="cards">
+          <article>
+            <h3>Sycamore Bend</h3>
+            <p><strong>Easy · 3.7 mi · 2 hr · 540 ft</strong></p>
+            <p>Creek route with some uneven limestone.</p>
+          </article>
+          <article>
+            <h3>Turkey Peak</h3>
+            <p><strong>Moderate · 2.4 mi · 1.5–2 hr · 780 ft</strong></p>
+            <p>Short, steep climb with exposed summit terrain.</p>
+          </article>
+          <article>
+            <h3>Prairie Hollow</h3>
+            <p><strong>Easy · 5.6 mi · 3 hr · 300 ft</strong></p>
+            <p>Gentle grades but a longer overall distance.</p>
+          </article>
+        </div>
+      </section>
+      <section class="wrap help" id="help">
+        <h2>Difficulty guide</h2>
+        <button
+          id="difficulty-toggle"
+          aria-expanded="false"
+          aria-controls="difficulty-panel"
+        >
+          What do the difficulty labels mean?
+        </button>
+        <div id="difficulty-panel" hidden>
+          <p>
+            <strong>Easy:</strong> generally approachable for newer hikers, but
+            distance, heat, and terrain still matter.
+          </p>
+          <p>
+            <strong>Moderate:</strong> may involve steeper climbing, rougher
+            footing, exposure, or more stamina.
+          </p>
+        </div>
+      </section>
+      <section class="wrap section" id="plan">
+        <h2>Plan a morning hike</h2>
+        <form id="plan-form">
+          <label for="trail">Trail</label
+          ><select id="trail" required>
+            <option value="">Choose one</option>
+            <option>Sycamore Bend</option>
+            <option>Turkey Peak</option>
+            <option>Prairie Hollow</option>
+          </select>
+          <label for="group">Who is hiking?</label
+          ><select id="group" required>
+            <option value="">Choose one</option>
+            <option>Just me</option>
+            <option>Adults</option>
+            <option>Adult + child</option>
+          </select>
+          <label class="check"
+            ><input id="conditions" type="checkbox" required /> I will check
+            official conditions before leaving.</label
+          >
+          <button type="submit">Review plan</button>
+        </form>
+        <div id="feedback" role="status" aria-live="polite"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap">
+        Cedar Ridge Trail Finder · Instructor demonstration client
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#223234;line-height:1.6}
+.wrap{width:min(92%,68rem);margin:auto}
+header{background:#294b43;color:white}
+.top{min-height:70px;display:flex;justify-content:space-between;align-items:center}
+nav{display:flex;gap:18px}nav a{color:white}.hero{padding:60px 0;background:#e7e2d2}
+.hero h1{font-size:clamp(2.5rem,7vw,4.5rem);margin:.1em 0}.eyebrow{text-transform:uppercase;letter-spacing:.12em;color:#32675b;font-weight:bold}
+.section{padding:42px 0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cards article{border:1px solid #ccc6ba;padding:20px;border-radius:8px}
+.help{background:#dce9df;padding:28px;border-radius:10px}
+button,select{font:inherit}
+button{padding:11px 16px;background:#7e452f;color:white;border:0;border-radius:5px;font-weight:bold}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #17469b;outline-offset:3px}
+#difficulty-panel{background:white;border-left:5px solid #32675b;padding:16px 20px;margin-top:18px}
+form{display:grid;gap:10px;max-width:34rem}select{min-height:44px;padding:7px}.check{display:flex;gap:9px;margin:10px 0}
+.check input{width:20px;height:20px}#feedback{min-height:1.5em;margin-top:15px;font-weight:bold}
+footer{background:#223234;color:white;padding:28px 0;margin-top:30px}
+@media(max-width:720px){.top{flex-direction:column;align-items:flex-start;padding:15px 0}
+   .cards{grid-template-columns:1fr}}

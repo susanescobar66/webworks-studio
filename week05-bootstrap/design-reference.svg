@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 2050" role="img" aria-labelledby="title desc">
+<title id="title">Cedar and Stone Home Services design reference</title>
+<desc id="desc">A service-page design reference with a dark green navigation bar, warm hero, three service cards, process section, about split layout, and dark footer.</desc>
+<rect width="1400" height="2050" fill="#fbfaf7"/>
+<rect width="1400" height="105" fill="#203c35"/>
+<text x="95" y="65" font-family="Arial" font-size="31" font-weight="700" fill="#fff">CEDAR &amp; STONE</text>
+<text x="850" y="65" font-family="Arial" font-size="20" fill="#fff">Services</text>
+<text x="960" y="65" font-family="Arial" font-size="20" fill="#fff">Our Process</text>
+<text x="1100" y="65" font-family="Arial" font-size="20" fill="#fff">About</text>
+<rect x="1190" y="34" width="135" height="44" rx="7" fill="#a86643"/>
+<text x="1257" y="62" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#fff">CONTACT</text>
+<rect x="0" y="105" width="1400" height="520" fill="#f5f0e7"/>
+<text x="95" y="205" font-family="Arial" font-size="18" font-weight="700" fill="#a86643">HOME MAINTENANCE WITHOUT THE RUNAROUND</text>
+<text x="95" y="280" font-family="Arial" font-size="52" font-weight="700" fill="#203c35">One trusted team for the projects</text>
+<text x="95" y="342" font-family="Arial" font-size="52" font-weight="700" fill="#203c35">that keep your home working.</text>
+<text x="95" y="400" font-family="Arial" font-size="22" fill="#5d6a64">Reliable home maintenance and small-project service in San Antonio.</text>
+<rect x="95" y="455" width="210" height="54" rx="8" fill="#203c35"/>
+<text x="200" y="489" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#fff">EXPLORE SERVICES</text>
+<rect x="325" y="455" width="235" height="54" rx="8" fill="none" stroke="#203c35" stroke-width="2"/>
+<text x="442" y="489" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#203c35">REQUEST CONSULTATION</text>
+<rect x="885" y="170" width="390" height="360" rx="22" fill="#e2ded3"/>
+<path d="M945 395 L1090 250 L1240 395" fill="none" stroke="#203c35" stroke-width="16"/>
+<rect x="980" y="360" width="235" height="120" fill="#d2a37f" stroke="#203c35" stroke-width="8"/>
+<circle cx="1200" cy="295" r="38" fill="#77917f"/>
+<text x="95" y="715" font-family="Arial" font-size="18" font-weight="700" fill="#a86643">OUR SERVICES</text>
+<text x="95" y="775" font-family="Arial" font-size="44" font-weight="700" fill="#203c35">Practical help for the jobs that pile up.</text>
+<g><rect x="95" y="830" width="375" height="410" rx="18" fill="#fff" stroke="#d6ddd9" stroke-width="2"/><rect x="95" y="830" width="375" height="155" rx="18" fill="#e8efeb"/><text x="130" y="1035" font-family="Arial" font-size="17" font-weight="700" fill="#a86643">HOME REPAIR</text><text x="130" y="1080" font-family="Arial" font-size="29" font-weight="700" fill="#203c35">Fix &amp; Repair</text></g>
+<g><rect x="512" y="830" width="375" height="410" rx="18" fill="#fff" stroke="#d6ddd9" stroke-width="2"/><rect x="512" y="830" width="375" height="155" rx="18" fill="#eee4db"/><text x="547" y="1035" font-family="Arial" font-size="17" font-weight="700" fill="#a86643">REFRESH PROJECTS</text><text x="547" y="1080" font-family="Arial" font-size="29" font-weight="700" fill="#203c35">Paint &amp; Refresh</text></g>
+<g><rect x="929" y="830" width="375" height="410" rx="18" fill="#fff" stroke="#d6ddd9" stroke-width="2"/><rect x="929" y="830" width="375" height="155" rx="18" fill="#e8efeb"/><text x="964" y="1035" font-family="Arial" font-size="17" font-weight="700" fill="#a86643">OUTDOOR CARE</text><text x="964" y="1080" font-family="Arial" font-size="29" font-weight="700" fill="#203c35">Patio &amp; Exterior</text></g>
+<rect x="0" y="1310" width="1400" height="310" fill="#e8efeb"/>
+<text x="95" y="1380" font-family="Arial" font-size="18" font-weight="700" fill="#a86643">HOW IT WORKS</text>
+<text x="95" y="1435" font-family="Arial" font-size="38" font-weight="700" fill="#203c35">Clear scope. Clear schedule.</text>
+<circle cx="690" cy="1450" r="34" fill="#203c35"/><text x="690" y="1460" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#fff">1</text>
+<circle cx="900" cy="1450" r="34" fill="#203c35"/><text x="900" y="1460" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#fff">2</text>
+<circle cx="1110" cy="1450" r="34" fill="#203c35"/><text x="1110" y="1460" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#fff">3</text>
+<rect x="95" y="1680" width="480" height="265" rx="18" fill="#ddd4c9"/>
+<text x="660" y="1725" font-family="Arial" font-size="18" font-weight="700" fill="#a86643">WHY CEDAR &amp; STONE</text>
+<text x="660" y="1780" font-family="Arial" font-size="40" font-weight="700" fill="#203c35">Make home ownership easier.</text>
+<rect x="0" y="1990" width="1400" height="60" fill="#203c35"/>
+<text x="95" y="2027" font-family="Arial" font-size="20" font-weight="700" fill="#fff">CEDAR &amp; STONE HOME SERVICES</text>
+</svg>
